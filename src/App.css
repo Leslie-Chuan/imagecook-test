@@ -1,38 +1,208 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.page {
   display: flex;
-  flex-direction: column;
+  position: relative;
   align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 190.13vw;
+}
+.block {
+  display: flex;
+  position: absolute;
+  top: 0;
+  align-items: center;
+  align-self: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.longBanner {
+  width: 100vw;
+  height: 190.13vw;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hd {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  width: 99.87vw;
+  height: 27.47vw;
+}
+.bgWrap {
+  display: flex;
+  position: absolute;
+  right: 1.47vw;
+  bottom: 0;
+  align-items: flex-start;
+  flex-direction: row;
+  width: 73.73vw;
+  height: 26.53vw;
+}
+.bg {
+  margin-top: 16vw;
+  width: 50.67vw;
+  height: 7.87vw;
+}
+.block_1 {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+  height: 27.47vw;
+}
+.container {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  background-size: contain;
+  background-image: url(https://img.yycdn.com/imgextra/i3/O1CN01p7pPnW1HaXDxIZOUb_!!6000000000774-2-tps-749-119.png);
+  width: 99.87vw;
+  height: 15.87vw;
+}
+.actionBg {
+  margin-top: 4.93vw;
+  margin-right: 8.67vw;
+  margin-left: 20.8vw;
+  width: 28.67vw;
+  height: 8.53vw;
+}
+.buttonBg {
+  margin-top: 5.33vw;
+  margin-right: 7.47vw;
+  width: 22.8vw;
+  height: 8vw;
+}
+.outer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 7.33vw;
+}
+.empty {
+  position: relative;
+  width: 5.73vw;
+  height: 0;
+}
+.wrap {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 0.53vw;
+  height: 1.2vw;
+}
+.color {
+  position: relative;
+  margin-top: -0.53vw;
+  border-radius: 0.13vw;
+  background-color: #932b29;
+  width: 5.73vw;
+  height: 0.53vw;
+  overflow: hidden;
+}
+.block_2 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 0.53vw;
+  height: 1.2vw;
+}
+.colorDiv {
+  position: relative;
+  margin-top: -0.53vw;
+  border-radius: 0.13vw;
+  background-color: #932b29;
+  width: 5.73vw;
+  height: 0.53vw;
+  overflow: hidden;
+}
+.group {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 0.53vw;
+  height: 0;
+}
+.color_1 {
+  position: relative;
+  margin-top: -0.53vw;
+  border-radius: 0.13vw;
+  background-color: #932b29;
+  width: 5.73vw;
+  height: 0.53vw;
+  overflow: hidden;
+}
+.pic {
+  position: absolute;
+  top: 3.47vw;
+  left: 3.73vw;
+  width: 14.67vw;
+  height: 14.67vw;
+}
+.layer {
+  position: absolute;
+  right: 1.47vw;
+  bottom: 0;
+  width: 45.73vw;
+  height: 26.53vw;
+}
+.bd {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 71.07vw;
+  height: 47.87vw;
+}
+.group_1 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  background-size: contain;
+  background-image: url(https://img.yycdn.com/imgextra/i4/O1CN01UOBnHf1m4hmvPohu6_!!6000000004901-2-tps-750-321.png);
+  width: 100vw;
+  height: 42.8vw;
+}
+.icon {
+  position: absolute;
+  top: 30.53vw;
+  right: 9.47vw;
+  width: 2.53vw;
+  height: 3.6vw;
+  overflow: hidden;
+}
+.img {
+  position: absolute;
+  top: 27.07vw;
+  right: 5.87vw;
+  width: 10.93vw;
+  height: 10.27vw;
+}
+.actionBg_1 {
+  position: absolute;
+  right: 31.73vw;
+  bottom: 0;
+  width: 36vw;
+  height: 10.4vw;
+}
+.ft {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2.8vw;
+}
+.largeIcon {
+  width: 6.93vw;
+  height: 7.6vw;
+  overflow: hidden;
 }
